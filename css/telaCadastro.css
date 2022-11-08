@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+}
+
+.container-limiter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.content{
+    
+    border-radius: 10px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.brand{
+    width: 400px;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+form span{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+button{
+    border: none;
+    width: 90%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgb(44, 6, 109);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color:#0073AE ;
+    font-size: 20px;
+}
+
+.account{
+    margin-top: 20px;
+}
+
+.account span{
+    font-size: 22px;
+}
