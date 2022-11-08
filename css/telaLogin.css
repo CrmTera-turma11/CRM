@@ -1,84 +1,92 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
-   border: 2px solid black;
-   position: absolute;
-   top: 60%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   padding: 10px;
-   width: 500px;
-   border-radius: 10px;
-   height: 500px;
-
-}
-
-.content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    flex-direction: column;
-    padding: 120px;
-   
-}
-
-button{
-    width: 70%;
-    padding: 10px;
-    border-radius: 4px;
-    background: none;
-}
-
 body{
-    background-image: url(../assets/img/fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100%;
 }
 
-h2{
-    color: black;
-    font-weight: bolder;
-    font-size: 180%;
+.container-limiter{
+    width: 100%;
+    margin: 0 auto;
 }
 
-label{
-    color: black;
-    font-weight: bold;
-    font-size: .8rem;
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.content{
+    
+    border-radius: 10px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.brand{
+    width: 400px;
 }
 
 img{
-   width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+form span{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    outline: none;
 }
 
 button{
-    width: 100%;
-    background-color: rgb(233, 56, 124);
-    border-radius: 20px;
-    height: 40px;
+    border: none;
+    width: 90%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgb(44, 6, 109);
     cursor: pointer;
 }
 
 a{
     text-decoration: none;
-    color: black;
-
+    color:#0073AE ;
+    font-size: 20px;
 }
 
-input{
-    border-bottom: solid;
-    padding: 10px;
-    font-size: .9rem;
-    margin-bottom: 40px;
+.account{
+    margin-top: 20px;
 }
 
-input, label{
-    display: block;
-    width: 100%;
+.account span{
+    font-size: 22px;
 }
