@@ -80,6 +80,7 @@ a{
     text-decoration: none;
     color:#0073AE ;
     font-size: 20px;
+
 }
 
 .account{
@@ -98,4 +99,17 @@ a{
     text-align: center;
     color: #2460ee;
     cursor: pointer;
+=======
+}
+
+.account{
+    margin-top: 20px;
+}
+
+.account span{
+    font-size: 22px;
+}
+
+.account p{
+    margin-top: 20px;
 }
