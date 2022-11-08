@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -89,4 +88,14 @@ a{
 
 .account span{
     font-size: 22px;
+}
+
+.account p {
+    margin-top: 20px;
+}
+#cadastroRedirect{
+    font-size: 24px;
+    text-align: center;
+    color: #2460ee;
+    cursor: pointer;
 }
