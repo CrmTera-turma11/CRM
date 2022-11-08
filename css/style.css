@@ -11,5 +11,41 @@ body{
 }
 
 img{
-    width: 180px;
+    text-align:center;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.logo{
+    width: 400px;
+}
+
+.tela{
+    width: 700px;
+}
+
+button{
+    border-bottom: 10px;
+    width: 15%;
+    font-size: 18px;
+    border-radius: 12px;
+    color: rgb(44, 6, 109);
+    cursor: pointer;
+}
+
+.botao1{
+    display: flex;
+    justify-content: end;
+}
+
+h1{
+    text-decoration: none;
+    font-size: 40px;
+    text-align:center;
+}
+
+.botao2{
+   display: flex;
+   justify-content: center;
 }

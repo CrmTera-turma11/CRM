@@ -88,4 +88,12 @@ a{
 
 .account span{
     font-size: 22px;
+
+}
+
+#loginRedirect{
+    cursor: pointer;
+    color: #0073AE;
+    border-bottom: 1px solid rgb(241, 234, 234);
+
 }
