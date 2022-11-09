@@ -7,4 +7,3 @@ function redirectCadastro(){
     const cadastroRedirect = document.getElementById('cadastroRedirect')
     cadastroRedirect.onclick = window.location.href = "../pages/telaCadastro.html"
 }
-
