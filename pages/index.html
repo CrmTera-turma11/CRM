@@ -4,25 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRM</title>
-</head>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
+    <title>BoostNow - home</title>
+</head>
 <body>
-    <Header>
-        <div class="botao1">
-            <button><span onclick="redirectCadastro()">Cadastre-se</span></button>
-            <button><span onclick="redirectLogin()">Login</span></button>
-        </div>
-        <img class="logo" src="../assets/img/Logoazul.png" alt="" srcset="">
-        <h1>Impulsione suas vendas agora!</h1>
-        <img class="tela" src="../assets/img/tela.png" alt="" srcset="">
-    </Header>
-    <div class="botao2">
-         <button ><a href="">Cadastre-se</a> </button>
-         <button ><a href="">Login</a> </button>
-    </div>
 
-    <script src="../Js/routes.js"></script>
-    <script src="Js/index.js"></script>
+    <header class="header">
+        <nav class="navBar">
+            <img src="../assets/img/Logoazul.png" alt="BoostNow" >
+            <ul>
+                <li>Produto</li>
+                <li>Preço</li>
+                <li>Ferramentas</li>
+                <li>Empresa</li>
+            </ul>
+            <div class="btns">
+                <button onclick="redirectCadastro()">Cadastre-se</button>
+                <button onclick="redirectLogin()">Entrar</button>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="content">
+            <img src="img/Logoazul.png" alt="">
+            <h1>Impuslsione suas vendas agora!</h1>
+            <div class="img-crm">
+                <div class="img-container">
+                    <p><span class="img1">Imagem 1 do CRM</span></p> 
+                </div>
+                <div class="img-container">
+                    <p><span class="img2">Imagem 2 do CRM</span></p>    
+                </div>
+                <div class="img-container">
+                    <p><span class="img3">Imagem 3 do CRM</span></p>    
+                </div>
+            </div>
+            <hr>
+            <h2>Texto sobre o CRM aqui</h2>
+            <hr>
+        </div>
+    </section>
+
+    <main class="content-main">
+        <h2>Princpais Recursos</h2>
+        <div class="carrousel">
+            <div class="galeria">
+                <img src="../assets/img/mockup.png" alt="">
+                <img src="../assets/img/mockup.png" alt="">
+                <img src="../assets/img/mockup.png" alt="">
+                <img src="../assets/img/mockup.png" alt="">
+                <img src="../assets/img/mockup.png" alt="">
+            </div>
+        </div>
+    </main>
+    <section class="content-login">
+        <div class="entre">
+            <button>Cadastre-se</button>
+            <button>Entrar</button>
+        </div>
+    </section>
+
+    <section class="userHead">
+        <div class="user">
+            <span><i class="fa-solid fa-user"></i></span>
+            <span><i class="fa-solid fa-user"></i></span>
+            <span><i class="fa-solid fa-user"></i></span>
+        </div>
+    </section>
+    <footer>
+        <div class="logo-footer">
+            <img src="../assets/img/Logoazul.png" alt="" width="180px">
+        </div>
+        <section class="content-footer">
+            <ul>
+                <li>Termos De Serviço</li>
+                <li>Privacidade</li>
+                <li>Aviso de cookies</li>
+                <li>&copy; BoostNow</li>
+            </ul>
+        </section>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../Js/jquery.js"></script>
+   <script src="../Js/index.js"></script>
 </body>
 </html>
