@@ -99,7 +99,6 @@ a{
     text-align: center;
     color: #2460ee;
     cursor: pointer;
-=======
 }
 
 .account{
@@ -112,4 +111,13 @@ a{
 
 .account p{
     margin-top: 20px;
+}
+
+.logoDeCima img{
+    width: 180px;
+}
+
+li{
+    list-style: none;
+    display: inline;
 }
