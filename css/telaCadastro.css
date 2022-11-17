@@ -46,7 +46,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 70px;
     height: 100%;
     margin: 0 auto;
 }
@@ -116,4 +116,11 @@ li{
 header{
     display: inline;
     text-align: center;
+}
+
+i{
+    position: absolute;
+    right: 16vw;
+    top: 61vh;
+    cursor: pointer;
 }
