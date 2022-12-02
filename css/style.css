@@ -36,10 +36,10 @@ body{
 }
 
 .btns{
-    display: flex;
-    margin-left: 20vh;
-    gap: 10px;
-    align-items: center;
+  border: none;
+  background-color: #3f53d9;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .btns button{
@@ -215,6 +215,8 @@ h1{
     flex-direction: column;
     gap: 10px;
 }
+
+
 
 .entre button{
     background-color: #3f53d9;

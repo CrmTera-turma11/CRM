@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça seu Cadastro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/telaCadastro.css">
 </head>
 <body>
@@ -27,11 +30,14 @@
                 </div>
                    <form class="form">
                         <span>Faça seu cadastro</span>
-                        <input type="text" placeholder="nome do usuário">
-                        <input type="email" placeholder="Digite seu email" required>
-                        <input type="password" placeholder="digite sua senha">
-                        <input type="password" placeholder="Confirme sua senha">
-                        <button>Cadastre-se</button>
+                        <input type="text" placeholder="nome do usuário" id="username" required>
+                        <input type="email" placeholder="Digite seu email" id="email" required>
+                        <div>
+                            <i class="fa-solid fa-eye-slash" id="eye-closed"></i>
+                            <input id="senha" type="password" placeholder="digite sua senha" required title="somente senhas acima de 6 caracteres."> 
+                        </div>
+                        <input id="confirmaSenha" type="password" placeholder="Confirme sua senha" required>
+                        <button id="btnCadastro" type="submit">Cadastre-se</button>
                        <div class="account">
 
                         <div>
@@ -43,8 +49,10 @@
         </div>
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="../Js/routes.js"></script>
+    <script src="../Js/cadastro.js"></script>
 
 </body>
 </html>

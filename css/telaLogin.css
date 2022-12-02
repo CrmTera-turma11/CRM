@@ -4,14 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 100%;
-}
 
-.container-limiter{
-    width: 100%;
-    margin: 0 auto;
-}
 
 .container{
     min-height: 100vh;
@@ -47,8 +40,6 @@ form{
     justify-content: center;
     align-items: center;
     padding: 50px;
-    height: 100%;
-    margin: 0 auto;
 }
 
 form span{
@@ -66,15 +57,6 @@ input{
     outline: none;
 }
 
-button{
-    border: none;
-    width: 90%;
-    padding: 15px;
-    font-size: 20px;
-    border-radius: 12px;
-    box-shadow: 0 0 6px rgb(44, 6, 109);
-    cursor: pointer;
-}
 
 a{
     text-decoration: none;
@@ -121,3 +103,11 @@ li{
     list-style: none;
     display: inline;
 }
+
+.btnLogar{
+    padding: 10px;
+    border: none;
+    width: 80%;
+    border-radius: 20px;
+}
+
